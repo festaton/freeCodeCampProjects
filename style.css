@@ -1,5 +1,10 @@
+body {
+  font-family: bitter;
+}
 
 .container {
+  height: 60%;
+  width: 80%;
   margin: 100px;
   text-align: center;
   background-color: #ffde8d;
@@ -10,8 +15,11 @@
 .quotes {
   background-color: #a8bf78;
   text-align: center;
+  
   border-radius: 10px;
   margin: 15px;
+  padding: 15px;
+  font-size: 32px;
 }
 
 h1 {
@@ -21,4 +29,11 @@ h1 {
 
 button {
   margin: 10px;
+  opacity: .6;
+  height: 100px;
+  width: 140px;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  outline: none;
 }
